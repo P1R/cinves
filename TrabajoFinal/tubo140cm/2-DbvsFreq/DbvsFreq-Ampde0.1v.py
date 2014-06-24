@@ -7,8 +7,8 @@ Db=np.array([70,71.4,80.1,88.2,98.1,108.8,107.4,104.1,103.2,105.5,109.6,114.8,11
 plt.xlabel('Frecuencia')
 plt.ylabel('Decibel')
 plt.title('DecibelvsFreq a 0.1volts')
-for i in range(len(Freq)):
-	plt.text(Freq[i],Db[i], r'$Freq=%f, \ Db=%f$' % (Freq[i], Db[i]))
+#for i in range(len(Freq)):
+#	plt.text(Freq[i],Db[i], r'$Freq=%f, \ Db=%f$' % (Freq[i], Db[i]))
 plt.axis([0, 430, 50, 130])
 plt.plot(Freq,Db,'bo',Freq,Db,'k')
 plt.grid(True)
